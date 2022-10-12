@@ -1,0 +1,5 @@
+spring:
+  r2dbc:
+    url: r2dbc:postgresql://host.docker.internal:49154?schema=anime
+    username: postgres
+    password: postgrespw
